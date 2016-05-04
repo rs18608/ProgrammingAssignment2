@@ -5,7 +5,7 @@
 ## 3. set the value of the mean
 ## 4. get the value of the mean
 
-makeCacheMatrix <- functson(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
   myInverse <- NULL
   set <- function(y) {
     x <<- y
